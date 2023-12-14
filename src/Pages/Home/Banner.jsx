@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Banner = () => {
     return (
-        <div className="flex">
+        <div className="flex flex-col-reverse md:flex-row">
 
             <div className="flex-1 flex  items-center justify-center flex-col ">
             <div className="space-y-3 w-2/3">
@@ -25,7 +25,9 @@ const Banner = () => {
                 </p>
             
                     <button className="btn bg-slate-200 text-black mr-5">Hire Me</button>
-                    <button className="btn bg-slate-200 text-black">Download CV</button>
+                   <a href="/public/CV college.pdf" download={"CV college.pdf"}> <button className="btn bg-slate-200 text-black">Download CV</button></a>
+
+                 
                 </div>
 
             </div>

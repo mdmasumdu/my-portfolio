@@ -11,9 +11,9 @@ const [skills,setskills]=useState([])
   },[])
     return (
         <div className=" bg-slate-300 pt-10 p-5">
-          <h1 className="text-4xl font-bold  text-center bg-orange-400 border w-96 mx-auto">MY Skills</h1>
+          <h1 className="text-4xl font-bold  text-center bg-orange-400 border md:w-96 mx-auto text-black p-1">MY Skills</h1>
 
-               <div className="grid grid-cols-5 gap-5 text-black">
+               <div className="grid grid-cols-1 md:grid-cols-5 gap-5 text-black">
                {
                     skills.map(skill=><Skill key={skill.id} skill={skill}></Skill>)
                    }

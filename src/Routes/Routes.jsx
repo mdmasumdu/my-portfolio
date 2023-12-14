@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Mailayout from "../Layout/Mailayout";
 import Home from "../Pages/Home/Home";
+import ContactUs from "../Pages/Home/ContactUs";
 
 const mycreatedroute =createBrowserRouter([
     {
@@ -9,7 +10,12 @@ const mycreatedroute =createBrowserRouter([
         children:[
             {
                 path:"/",
-                element:<Home></Home>
+                element:<Home></Home>,
+                
+            },
+            {
+                path:"/contactus",
+                element:<ContactUs></ContactUs>
             }
         ]
     }
