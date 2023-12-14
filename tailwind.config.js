@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
     daisyui: {
-      themes: ["cupcake"],
+      themes: ["synthwave"],
     },
   plugins: [require("daisyui")],
 }

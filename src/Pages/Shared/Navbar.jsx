@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom";
+import logo  from "../../assets/lg2-removebg-preview.png"
 
 const Navbar = () => {
 
@@ -11,7 +11,7 @@ const Navbar = () => {
   
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-slate-200 shadow-2xl p-5 text-black">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,7 +21,7 @@ const Navbar = () => {
              {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <Link className="btn btn-ghost text-xl"><img className="w-24" src={logo} alt="" /></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-5 font-bold text-xl">

@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "name": "HTML5",
+      "logo": "https://i.ibb.co/9cSpst1/html.png"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "logo": "https://i.ibb.co/wBNdrxW/css.png"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "logo": "https://i.ibb.co/Df6xL2V/pngwing-com-6.png"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "logo": "https://i.ibb.co/nRyFjHT/react.png"
+    },
+    {
+      "id": 5,
+      "name": "Node js",
+      "logo": "https://i.ibb.co/Bnp2HGy/pngwing-com.png"
+    },
+    {
+      "id": 6,
+      "name": "Express js",
+      "logo": "https://i.postimg.cc/BQkF80GG/pngwing-com-2.png"
+    },
+    {
+      "id": 7,
+      "name": "MongoDB",
+      "logo": "https://i.ibb.co/4J1jSDq/pngwing-com-3.png"
+    },
+    {
+      "id": 8,
+      "name": "Tailwind",
+      "logo": "https://i.ibb.co/7XMz26R/pngwing-com-4.png"
+    },
+    {
+      "id": 9,
+      "name": "Bootstrap",
+      "logo": "https://i.ibb.co/ZcGJyrZ/pngwing-com-5.png"
+    },
+    {
+      "id": 10,
+      "name": "Firebase",
+      "logo": "https://i.ibb.co/3s1QvV2/pngwing-com-1.png"
+    }
+   
+  ]
